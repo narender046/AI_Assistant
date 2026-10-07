@@ -1,0 +1,65 @@
+# AI Assitant (Chatbot)
+========================
+The AI Assitant reponds to your instructios. It doesn't decidewhat do to on its own
+Thar differencce becomes very importnat when comapred to AI Agents 
+
+# What  is an AI Assistant 
+==============================
+An AI Assitant is a software application that canunderstand your instructions amd 
+generate useful responses. It can answers simple questions, exaplin the technical  
+and fucntion concepts related to anything it can write an email, summarize things 
+and can plan any trips or project for you and translate languages.
+
+# Flow of the Enitire process 
+===================================
+You ===> your python program (AI assitant) ===> AI Models ===> Response ===> You 
+
+    1) You submit a query to AI assitant (the python program)
+    2) AI assitant takes the query asn Input and send to the AI Model for a response 
+    3) AI Model return the response in a curated way for your query to AI Assistant
+    4) AI Assistant(the python program) prints the response to the user 
+
+Some examples of AI Assistant are ChatGPT, Grok, Gemmini  and  Claude   
+
+AI Assistant vs AI Agent
+===========================
+
+An AI Agent is simply and AI Assistant with additional competencies such as 
+1) Planning, 
+2) Using tools 
+3) Remembering information 
+4) Taking 
+
+How does  an AI Assistant  works ?
+======================================
+
+Lets start it by asking a question what is a car to any AI Assistant(Chatbot) ?
+As soon as the above question was asked, the AI assitant will per form the below steps:
+
+Step1 --> It receives the question (What is a car ?)
+Step2 --> It sends the question the AI Model
+Step3 --> The AI Model understands the requests and generates an answer 
+Step4 --> The answer is returened to your programs 
+
+
+No the next question comes in our mind  what is an AI model
+================================================================= 
+1) An AI model is the brain of your assitant
+2) It has alreaddy learned from enourmus amount of text,  books articles, website
+   and publicky available information 
+3) When you aska question the models predicts the most appropriate response based on what it has learned.
+4) Wedon't need to know how the model was trained to build useful AI applications unless you are  working
+   witha cimpany whihc works on stuch things.
+
+AI Models can be place either locally or in cloud
+
+Cloud AI Models --> The AI model si provisioned by soneone else at thier data centre somwhere elase 
+                    We just use it by using APIs over the internet and these API calls are associted with some cost.
+                    Some examples  are Anthropic,  Groq, Google and Open AI etc.
+
+Loal Models ---> Either a company has developed a AI model (how? we are going into that discussion)
+                 Or we  or someone has downloaded an AI model and running locally on our Infra 
+                 For this course we are going to use Ollama  and open source AI model
+                 It is free, private, easy to intall, great for learning and NO API charges
+
+                 

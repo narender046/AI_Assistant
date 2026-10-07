@@ -1,0 +1,54 @@
+What is an API (related to AI world) 
+=======================================
+
+1) Your python program sends a requets using API
+2) The AI Model process it (AI Model's internal processing) 
+3) The result is returned to your programanagin using API
+
+
+Now we will Build  and AI application 
+=============================================
+
+To build an AI application, we will use the below tools
+
+1) Python 
+2) Viual code or any code editors 
+3) Ollama - Runs AI model locally 
+4) Git --> To store the artifactories and version control on a remote servers
+
+
+Python and VS Code we have many youtube videos or documents/website to demonstrae how to isntall these tools 
+Please use any of it and get these things ready, we will straight away jump to dowload the AI model  
+
+Ollama download and isntall
+==============================
+1) Step1 --> vistin the website - https://ollama.com/download/
+             Depenidng upon the OS download it
+Remember the Ollama is framework,once the ollama has been dowwnloaded then doenload the AI Model
+2) Step2 --> There are many open source models are available 
+             We will donaload Qwen3(4B) becuase it provides a good balance between speed and quality
+             To download it open terminal and run the command ==> ollama pull qwen3:4b
+             It will take a while to get downloaded fully and once this is done it will be available locally 
+3) Step3 --> how to verify we can get started or whatever we has  done so far is good tostart with
+             Run the command - ollama run qwen3:4b
+             one cthe prompt is available then type hello and wiat for the response 
+             It should respond you in a way like Hello! 😊 How can I help you today?
+             If you see this message then we are sgood to start with  
+
+***** Importnat **********
+
+It is always recommended to creata vitual environments while working with Python programming
+When a virtual environments is created, it physically copies a fresh,mini version of python and
+a brand new, empty library directly iinside you project arther than using the command library folders  
+
+Command to create a virtual environment in path 
+==================================================
+
+python -m venv .venv ==> this will create a new folder named .venv
+Next activate the virtual environment 
+
+.venv\Scripts\activate ==> on windows 
+
+source .venv/bin/activate ==> on linux/macOS 
+
+once it gete activated successfully then we would see (.venv) in from of the propmt of the terminal 
